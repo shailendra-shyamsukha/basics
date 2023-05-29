@@ -1,0 +1,193 @@
+@media screen and (min-width: 1024px) {
+    body {
+        overflow-y: scroll;
+        scrollbar-color: #3b424f #C2D2E4;
+    }
+    ::-webkit-scrollbar {
+        width: 15px;
+        height: 15px;
+    }
+    
+    ::-webkit-scrollbar-track-piece  {
+        background-color: #C2D2E4;
+    }
+    
+    ::-webkit-scrollbar-thumb:vertical {
+        height: 30px;
+        background-color: #3b424f;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        margin: 0px 20px 0px 50px ;
+    }
+
+    nav {
+        padding: 60px 50px;
+        width: 400px;
+    }
+
+    .navbar-close {
+        margin-right: 0;
+    }
+
+    .menucontact .details {
+        font-size: 0.9rem;
+    }
+
+    .headersocial {
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .heading {
+        padding-top: 40px;
+        width: auto;
+    }
+
+    .container {
+        width: 1170px;
+    }
+
+    .container-xs {
+        width: 768px;
+    }
+
+    .hidden-xs {
+        display: initial;
+    }
+
+    .centerall {
+        position: absolute;
+        top: 0;
+        margin-top: 0;
+    }
+
+    #intro .centerall {
+        margin-top: 0;
+    }
+
+    .intro-title {
+        max-width: 768px;
+        text-align: center;
+    }
+
+    .intro-title span {
+        display: inline-block;
+    }
+
+    .intro-title span.hidden-xs {
+        display: initial;
+    }
+
+    .d-flex {
+        grid-gap: 2rem;
+    }
+
+    .twocol {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        grid-gap: 2rem;
+    }
+
+    .col-1 {
+        flex: 0 0 50%;
+    }
+
+    .aboutdescription, .abouttext {
+        flex-direction: row;
+    }
+
+    .d-flex-sm {
+        width: 500px;
+    }
+
+    .typewrite {
+        font-size: 3.5rem;
+        max-width: 1000px;
+    }
+
+    .content h1 {
+        font-size: 3.5rem;
+    }
+
+    .content p {
+        font-size: 2rem;
+    }
+
+    .aboutdescription p {
+        font-size: 1rem;
+    }
+
+    .abouttext h3 {
+        font-size: 2.2rem;
+    }
+
+    p.contact {
+        font-size: 1rem;
+    }
+
+    .carousel-text .item p {
+        font-size: 3.5rem;
+    }
+
+    p.intro {
+        max-width: 50%;
+        font-size: 1.3rem;
+    }
+
+    .clients-wrapper {
+        max-width: 85%;
+    }
+
+    .client-logo img {
+        width: 100px;
+        padding: 0.8rem;
+    }
+
+    .logo-block img {
+        height: 100px;
+    }
+
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services p {
+        font-size: 1rem;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .testimonial-inner {
+        max-width: 50%;
+    }
+
+    .testimonial-inner blockquote:before, .testimonial-inner blockquote:after {
+        font-size: 6rem;
+    }
+
+    .testimonial-inner blockquote::before {
+        top: -20px;
+        left: -60px;
+    }
+
+    .testimonial-inner blockquote::after {
+        right: -50px;
+    }
+
+    .footertext {
+        font-size: 1.25rem;
+        max-width: 80%;
+    }
+
+    .bx-controls-direction {
+        display: block;
+    }
+}
